@@ -1,0 +1,26 @@
+{
+  "name": "spritecloud_ui-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-allure": "npx cypress run --browser chrome --headless --spec cypress/e2e/*.js",
+    "allure:report": "allure generate allure-results — clean -o allure-report && allure open allure-report",
+    "execute:report": "npm run test-allure && npm run allure:report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "allure-commandline": "^2.28.0",
+    "clipboardy": "^4.0.0",
+    "cypress": "^13.7.2",
+    "cypress-wait-until": "^3.0.1",
+    "cypress-xpath": "^2.0.1",
+    "mocha-allure-reporter": "^1.4.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
