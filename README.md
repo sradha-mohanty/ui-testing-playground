@@ -1,4 +1,10 @@
 # ui-testing-playground
+# How to Clone the Repository
+ * Run this command below commands in cmd:
+  `git clone` https://github.com/sradha-mohanty/ui-testing-playground
+  `cd ui-testing-playground`
+ * Then open in VS Code
+   code .
 
 # Installation
 * `npm init -y` and `npm install cypress --save-dev` to install dependencies
