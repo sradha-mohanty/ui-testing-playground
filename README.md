@@ -4,7 +4,7 @@
  * `git clone` https://github.com/sradha-mohanty/ui-testing-playground
  * `cd ui-testing-playground`
  * Then open in VS Code
- * code .
+ * `code` .
 
 # Installation
 * `npm init -y` and `npm install cypress --save-dev` to install dependencies
