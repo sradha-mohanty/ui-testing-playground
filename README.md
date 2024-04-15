@@ -7,7 +7,7 @@
 # Report
 * `index.html` report will generate under cypress/reports folder after run.
 * Open the `index.html` in the browser to see the report.
-# COmponent list that has been automated:
+# Component list that has been automated:
 the below components are widely used in the webpages, thats the reason I have choosen to automate.
 * ajaxData
 * classAttribute
